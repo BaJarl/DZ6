@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Roboto', 'sans=serif';
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 17px;
+}
+
+.menu-item {
+    display: flex;
+
+}
+
+.nav_ul{
+    display: flex;
+    gap: 30px;
+}
+
+.class2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.callback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo_text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.1em;
+color: #F13C6E;
+}
+
+.callback > a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.callback > a >button {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 12px 27px;
+    background-color: white;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nav_ul2{
+    display: flex;
+    gap: 30px;
+}
+
+.class3 {
+    display: flex;
+    background-image: url(./img/chair.jpg);
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    min-height: 604px;
+    gap: 50px;
+    justify-content: flex-start;
+}
+
+.class3 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 192px 375px;
+    margin: 0px 0px 100px;
+    }
+.class3 > div > h1 {
+    display: flex;
+    color: white;
+    font-size: 48px;
+
+}
+
+.class3 > div > p {
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
+
+.class3 > div > a> button {
+    display: flex;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px; 
+    padding: 12px 66px; 
+    color: white;
+    font-size: 14px;
+}
+
+.class4 {
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    padding: 38px;
+    
+}
+
+
+.offer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 80px 20%;
+    padding-bottom: 0px;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    flex-wrap: wrap;
+}
+
+.class4div{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.class4div > li {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 255px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.class4div > li > img {
+    display: flex;
+    max-width: 125px;
+    padding: 25px 65px;
+    background-color: white;
+}
+
+.class4div > li > h1 {
+    display: flex;
+    max-width: 125px;
+    padding: 6px 65px;
+    background-color: white;
+    justify-content: center;
+}
+
+.class4div > li > p {
+    display: flex;
+    padding: 6px 30px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.class4div > li > button {
+    display: flex;
+    padding: 9px 30px;
+    margin:0px 63px ;
+    background-color: white;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #F13C6E;
+    border: 1px #F13C6E solid;
+    color: white;
+}
+
+.class4div > li > button > a {
+    color: white;
+}
+
+
+.class5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding-top: 70px;
+}
+
+.mail1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F13C6E;
+    padding: 25px 45px;
+    max-height: 200px;
+    min-width: 445px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.mail1 > h1 {
+    font-size: 18px;
+    color: white;
+}
+
+.mail1 > p {
+    font-size: 14px;
+    color: white;
+}
+
+.mail1 > svg {
+    display: flex;
+    margin-left: 50px;
+    padding-top: 53px;
+}
+
+.mail1 > input {
+    display: flex;
+    border: #F13C6E solid 1px;
+    border-radius: 40px;
+    padding: 10px 25px;
+}
+
+.mail1 > button {
+    display: flex;
+    border: white solid 1px;
+    border-radius: 40px;
+    padding: 10px 35px;
+    color: white;
+    background-color: #F13C6E;
+    justify-content: center;
+}
+
+.mail1 > button > a {
+    color: white;
+}
+
+.class6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 80px 0px;
+}
+
+.class6>ul {
+    display: flex;
+    max-width: 1084px;
+    flex-wrap: wrap;
+}
+
+.class6>ul>li {
+    display: flex;
+    padding: 35px 60px;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+}
+
+.class7 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 60px 400px;
+    padding-bottom: 0px;
+    gap: 220px;
+    flex-wrap: wrap;
+}
+
+.class4_1 {
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    padding: 38px; 
+    padding-bottom: 80px;
+}
+
+.offer_1 {
+    display: flex;
+    padding: 40px 390px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    flex-wrap: wrap;
+    
+}
+
+.class7 > h1 {
+    font-size: 16px;
+}
+
+
+.class9 {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 400px;
+    padding-bottom: 0px;
+    gap: 210px;
+    flex-wrap: wrap;
+}
+
+.class9 > ul > a > li {
+    display: flex;
+    color: #828282;
+}
+
+.class9 > ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.class10 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 90px;
+}
+
+.callback_2 > a > button {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 12px 47px;
+    background-color: white;
+}
+
+.class10 > .social {
+    display: flex;
+    gap: 20px;
+}
+
+.class10 > .callback_2 > a {
+    padding-right: 40px;
+}
+
+.class11 {
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 25px 190px;
+    justify-content: space-around   ;
+    flex-wrap: wrap;
+}
+
+.class11 > p {
+    font-size: 12px;
+    color: #828282;
+}
+
